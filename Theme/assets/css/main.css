@@ -18,12 +18,12 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+/*h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
     font-size: 18px;
-}
+} */
 
 
 /* Paragraph & Typographic */
@@ -185,7 +185,7 @@ a:after {
 }
 
 /* Intnro Wrap */
-#About h5 {
+#About h5 h2 {
   text-align: center;
 }
 #intro {
@@ -197,7 +197,7 @@ a:after {
 
 #intro h5, p {
 
-  font-size: 15px;
+  font-size: 18px;
 	color: white;
 }
 

@@ -184,9 +184,10 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
-#About h5 h2 {
+/* Intro Wrap */
+#About {
   text-align: center;
+  margin: 0px 15%;
 }
 #intro {
 	background: #2c3e50;
@@ -226,7 +227,7 @@ a:after {
 
 
 #skillswrap h5, p {
-	color: white;
+	/*color: white; */
 }
 
 #footwrap {
@@ -263,6 +264,11 @@ a:after {
 
 #c p {
 	color: white
+}
+
+#work p {
+  margin: 10%;
+  color: black;
 }
 
 

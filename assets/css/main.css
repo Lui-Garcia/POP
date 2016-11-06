@@ -38,7 +38,7 @@ p {
 
 /* Links */
 a {
-    color: #f2f2f2;
+    color: #f85c37;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -254,10 +254,6 @@ a:after {
 	color: #1abc9c;
 }
 
-#galleria {
-  margin: 30px 15% 30px 15%;
-}
-
 /* Copyright Wrap */
 
 #c {
@@ -269,6 +265,7 @@ a:after {
 #c p {
 	color: white
 }
+
 
 #work p {
   margin: 10%;

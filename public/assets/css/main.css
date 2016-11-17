@@ -8,7 +8,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Helvetica";
     font-weight: 300;
     font-size: 18px;
     color: #555;
@@ -85,7 +85,7 @@ a:after {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px tahoma;
+	font: normal 16px/24px Helvetica;
 }
 
 #section-topbar a {

@@ -85,7 +85,7 @@ a:after {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px/24px tahoma;
 }
 
 #section-topbar a {
@@ -125,7 +125,7 @@ a:after {
 
 #section-topbar ul#nav a {
   display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 11px/18px tahoma;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
   border-left: 1px solid #222;

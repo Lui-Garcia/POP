@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Lui M. Garcia</title>
+
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -21,10 +21,24 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-    <script src="assets/js/Chart.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <!-- WOW.js activation -->
+<script src="assets/js/wow.min.js"></script>
+<script>
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       false,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    }
+  }
+);
+wow.init();
+</script>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -32,6 +46,7 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+    <title>Lui M. Garcia</title>
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -62,8 +77,8 @@
 
 	<div id="headerwrap">
 		<div class="container">
-			<div class="row centered animated fadeIn">
-				<div class="col-lg-12">
+			<div class="row centered">
+				<div class="col-lg-12 wow animated fadeIn" data-wow-delay="1.5s">
 					<h1>Luis M. Garcia</h1>
 					<h3>Student at UTD | luimgarcia@gmail.com</h3>
 				</div><!--/.col-lg-12 -->
@@ -74,7 +89,7 @@
 
 	<section id="home" name="about"></section>
 	<div id="intro">
-		<div class="container">
+		<div class="container wow animated fadeIn" data-wow-delay="2s">
 			<div class="row">
 				<div class="col-lg-12">
 					<p>Hello,
@@ -107,7 +122,7 @@ Thank you for taking the time to view my website and feel free to browse. Please
 	<section id="about" name="about"></section>
 <!--WORK DESCRIPTION -->
 <div id="About">
-    <div class="row">
+    <div class="row wow animate fadeIn">
 
       <div class="col-lg-2">
       <img style="user-select: none; cursor: zoom-in;" src="https://231webdev.com/wp-content/uploads/2016/06/marines-png-logo.png" width="220" height="220">
@@ -413,6 +428,10 @@ If there is one thing I have learned, it is I can never learn enough. I am alway
 
 
 
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/Chart.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script src="assets/js/jqBootstrapValidation.js"></script>
   <script src="assets/js/contact_me.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>

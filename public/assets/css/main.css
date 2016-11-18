@@ -177,6 +177,9 @@ a:after {
 #headerwrap h1 {
 	font-size: 80px;
 	color: white;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 #headerwrap h3 {

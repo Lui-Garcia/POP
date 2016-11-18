@@ -202,9 +202,33 @@ a:after {
 
   font-size: 18px;
 	color: white;
+  margin: 10px 20%;
 }
 
 #intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+#personal {
+	background: #2c3e50;
+	/*padding-top: 75px;*/
+	/*padding-bottom: 60px;*/
+  padding: 30px 10%;
+	color: white;
+  text-align: center;
+}
+
+#personal h5, p {
+
+  font-size: 18px;
+	color: white;
+  margin-bottom: 10px;
+}
+
+#personal i {
 	color: white;
 	font-size: 20px;
 	padding-right: 8px;
@@ -272,6 +296,10 @@ a:after {
 #work p {
   margin: 10%;
   color: black;
+}
+
+#extra p {
+  margin: 10px 0;
 }
 
 

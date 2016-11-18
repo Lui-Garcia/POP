@@ -187,11 +187,12 @@ a:after {
 /* Intro Wrap */
 #About {
   text-align: center;
-  margin: 40px 5%;
+  margin: 70px 5%;
 }
+
 #intro {
 	background: #2c3e50;
-	padding-top: 60px;
+	padding-top: 75px;
 	padding-bottom: 60px;
 	color: white;
   text-align: center;
@@ -278,7 +279,7 @@ a:after {
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 .desc p {
